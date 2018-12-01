@@ -1,0 +1,17 @@
+{
+    "name": "wmdeveloper/woocommerce-api",
+    "description": "Woocommerce API package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+
+        "automattic/woocommerce":"2.*"
+    },
+    "autoload":{
+        "psr-4":{
+            "WmDeveloper\\Woocommerce\\": "src/"
+        }
+    }
+
+}
